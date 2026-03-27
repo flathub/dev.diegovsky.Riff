@@ -1,7 +1,7 @@
 {
   "app-id": "dev.diegovsky.Riff",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
@@ -13,6 +13,7 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--socket=pulseaudio",
+    "--filesystem=xdg-run/pipewire-0:ro",
     "--device=dri",
     "--talk-name=org.freedesktop.secrets"
   ],
@@ -37,8 +38,8 @@
         {
           "type": "git",
           "url": "https://github.com/Diegovsky/riff",
-          "commit": "58c1c3a513047874169820d1f8c809d631ff06ec",
-          "tag": "v25.11"
+          "commit": "ccfc77454ecd522bf110cedd08c683fc9fd7f3cb",
+          "tag": "26.03"
         },
         "cargo-sources.json"
       ]
