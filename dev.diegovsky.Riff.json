@@ -1,7 +1,7 @@
 {
   "app-id": "dev.diegovsky.Riff",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
@@ -38,7 +38,7 @@
         {
           "type": "git",
           "url": "https://github.com/Diegovsky/riff",
-          "commit": "aaf85a5947c4f9f3cfe7bb004df29fc4f7817e00",
+          "commit": "ccfc77454ecd522bf110cedd08c683fc9fd7f3cb",
           "tag": "26.03"
         },
         "cargo-sources.json"
