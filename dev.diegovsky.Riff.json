@@ -37,7 +37,7 @@
         {
           "type": "git",
           "url": "https://github.com/Diegovsky/riff",
-          "commit": "ccfc77454ecd522bf110cedd08c683fc9fd7f3cb",
+          "commit": "2387171dddc0707731896520ac45556757e85e15",
           "tag": "26.07"
         },
         "cargo-sources.json"
