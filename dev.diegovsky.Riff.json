@@ -14,8 +14,7 @@
     "--socket=wayland",
     "--socket=pulseaudio",
     "--filesystem=xdg-run/pipewire-0:ro",
-    "--device=dri",
-    "--talk-name=org.freedesktop.secrets"
+    "--device=dri"
   ],
   "separate-locales": false,
   "build-options": {
@@ -38,8 +37,8 @@
         {
           "type": "git",
           "url": "https://github.com/Diegovsky/riff",
-          "commit": "ccfc77454ecd522bf110cedd08c683fc9fd7f3cb",
-          "tag": "26.03"
+          "commit": "108ae8ff88526650e0cdc630b903e71535045d1c",
+          "tag": "26.07"
         },
         "cargo-sources.json"
       ]
