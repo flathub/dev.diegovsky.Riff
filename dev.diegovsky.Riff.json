@@ -14,8 +14,7 @@
     "--socket=wayland",
     "--socket=pulseaudio",
     "--filesystem=xdg-run/pipewire-0:ro",
-    "--device=dri",
-    "--talk-name=org.freedesktop.secrets"
+    "--device=dri"
   ],
   "separate-locales": false,
   "build-options": {
